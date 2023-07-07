@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .main{
+  height: 100vh;
+  width: 100vw;
+} */
+.Home_Container{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid greenyellow; */
+}
+.AppName{
+  /* border: 3px solid rgb(107, 114, 5); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-style: italic;
+  filter: blur(.5px);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* position:sticky; */
+}
+
+.Header{
+  background-color: rgb(27, 0, 122);
+  color: white;
+  z-index: 100;
+  /* border: 3px solid green; */
+  position:sticky;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 rgb(63, 61, 61);
+}
+.SearchBox{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  background-color: white;
+  /* border: 2px solid green; */
+}
+.SearchIcon{
+  width: 32px;
+  height: 32px;
+}
+.MovieImage{
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px 4px gray;
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+}
+.SearchInput{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+.MovieListContainer{
+  display: flex;
+  flex-direction: row;
+  /* border: 3px solid red; */
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;;
+}
+   .Placeholder{
+
+  width: 120px;
+  height: 120px;
+  margin: 150px;
+  opacity: 50%;
+}
+/* Movie componenet */
+.MovieContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 280px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+}
+.CoverImage {
+  object-fit: cover;
+  height: 362px;
+}
+.MovieName{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.InfoColumn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.InfoColumn span{
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+/* Movie info */
+
+.Container1 {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  /* filter: blur(.8px); */
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  justify-content: center;
+  border-bottom: 1px solid rgb(175, 174, 174);
+}
+.Movie_box{
+  background-color: rgb(205, 227, 247);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  justify-content: center;
+  /* border-bottom: 1px solid rgb(90, 84, 84); */
+  box-shadow: 3px 3px 3px 3px rgb(160, 158, 158);
+}
+.Movie_box .CoverImage {
+  object-fit: cover;
+  height: 350px;
+}
+.Movie_box .InfoColumn1{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.Movie_box .MovieName{
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+ }
+  span {
+    opacity: 0.8;
+  }
+
+.MovieInfo{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  overflow: hidden;
+  margin: 4px 0;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+.MovieInfo span {
+    opacity: 0.6;
+  }
+
+.Close{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  background: lightgray;
+  height: fit-content;
+  padding: 8px;
+  border-radius: 50%;
+  cursor:pointer;
+  opacity: 0.8;
+  /* border: 2px solid red; */
+  
+}
+.Close span{
+  /* border: 2px solid red; */
+  cursor: pointer;
+}
