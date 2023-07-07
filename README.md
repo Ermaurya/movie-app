@@ -1,4 +1,4 @@
-**Movie App with Context API - README**
+**React Movie Hub with Context API - README**
 
 This Movie App is a simple web application that allows users to browse a collection of movies and view their details. The app is built using React and utilizes the Context API for state management. When a user clicks on a movie, they will get access to the full details of the selected movie.
 
